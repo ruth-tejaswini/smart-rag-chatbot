@@ -44,3 +44,12 @@ Option 1 — Directly in code (for testing):
 
 ```python
 client = Groq(api_key="your_api_key_here")
+
+Option 2 — Using environment variable (recommended):
+</> Bash
+set GROQ_API_KEY=your_api_key_here
+
+Then update code:
+'''python
+import os
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
