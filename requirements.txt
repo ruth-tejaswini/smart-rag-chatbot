@@ -10,3 +10,4 @@ sentence-transformers
 transformers
 torch
 rich
+faiss-cpu==1.7.4
