@@ -1,7 +1,0 @@
-flask
-sentence-transformers
-faiss-cpu
-numpy
-PyPDF2
-python-docx
-groq
