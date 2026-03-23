@@ -5,3 +5,4 @@ numpy
 PyPDF2
 python-docx
 groq
+gunicorn==21.2.0
